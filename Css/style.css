@@ -110,6 +110,67 @@ align-items: center;
   font-weight: 700;
 
 }
-
-
 /*banner section finished*/
+
+/*webDev section started*/
+.webdev{
+  width: 100%;
+  height: initial;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dev-up{
+padding: 30px 0;
+text-align: center;
+margin-bottom: 30px;
+}
+
+.dev-up h1{
+  font-size: 35px;
+  padding: 20px 0;
+  text-decoration: underline;
+}
+
+.dev-up p{
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.dev-bottom{
+  width: 100%;
+  height: initial;
+}
+
+.items{
+  padding: 10px 200px;
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+}
+
+.item h1{
+  font-size: 28px;
+  padding: 15px 0;
+}
+.item p{
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.item button{
+  margin: 20px 0;
+  padding: 7px 25px;
+}
+
+.item button a {
+  text-decoration: none;
+}
+
+
+
+
+/*webDev section finished*/
