@@ -30,7 +30,8 @@ nav ul {
   list-style: none;
 }
 
-ul li{
+ul li a{
+text-decoration: none;
 font-size: 17px;
 text-transform: uppercase;
 font-weight: 500;
@@ -38,7 +39,8 @@ color: black;
 padding: 7px 30px;
 }
 
-ul button , ul a{
+
+li button , li button a{
   background-color: orange;
   padding: 7px 10px;
   border-radius: 30px;
@@ -48,10 +50,66 @@ ul button , ul a{
   font-size: 17px;
 }
 
-ul li a{
-
-}
 .logo{
   width: 80px;
 }
 /*header section finished*/
+
+/*banner section started*/
+.hiro{
+  max-width: 1440px;
+  height: calc(100vh - 80px);
+  background-image: url(/assets/Hero-bg.png);
+  display: flex;
+  justify-content: center;
+}
+
+.hiro-content{
+margin: 20px 150px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.hiro-content img{
+  width: 200px;
+}
+
+.hiro-content h1{
+  padding: 20px 0;
+  font-size: 35px;
+  width: 500px;
+  text-align: center;
+}
+
+.hiro-content p{
+  font-size: 17px;
+  letter-spacing: .5px;
+  margin: 0 50px;
+}
+.hiro-content p span{
+  font-size: 25px;
+  letter-spacing: .5px;
+  font-weight: 900;
+}
+
+.hiro-content button{
+  padding: 7px 35px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 50px ;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  transition: .3s ease-in-out;
+}
+
+.hiro-content button:hover{
+  background-color: orange;
+  font-weight: 700;
+
+}
+
+
+/*banner section finished*/
