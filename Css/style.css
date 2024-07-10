@@ -183,12 +183,11 @@ margin-bottom: 30px;
 }
 
 .inspiration h1{
-  font-size: 35px;
-  padding: 15px 0;
+  font-size: 40px;
+  padding: 10px 0;
 }
 
 .inspiration p{
-padding: 10px 0;
 font-size: 18px;
 }
 
@@ -197,7 +196,72 @@ font-size: 18px;
 }
 
 .inspiration iframe{
-  margin-top: 20px 0;
+  margin: 50px 0;
   border-radius: 10px;
 }
 /*inspiration section finished*/
+
+/*current target section started*/
+.current-target{
+  width:100%;
+  padding: 50px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.current-target h1{
+  font-size: 40px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.current-target p{
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+.target-item{
+  display: flex;
+  gap: 20px;
+}
+.current-target .item{
+  width: 250px;
+  height: 200px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.item{
+  padding: 20px;
+  overflow: hidden;
+}
+.item img{
+  width: 40px;
+}
+.item h3{
+  padding-top: 10px;
+}
+
+.item p{
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: .3px;
+}
+.item a{
+ font-size: 18px;
+ font-weight: 600;
+}
+.html{
+  background-color:beige;
+}
+.css{
+   background-color:azure;
+}
+
+.javascript{
+  background-color: antiquewhite;
+}
+/*current target section finished/
