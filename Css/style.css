@@ -15,8 +15,8 @@ html, body {
   height: 80px;
   padding: 0 80px;
   background:linear-gradient(180deg ,rgb(242, 198, 198),white, rgb(242, 198, 198));
- 
 }
+
 
 nav{
   display: flex;
@@ -93,7 +93,7 @@ align-items: center;
   font-weight: 900;
 }
 
-.hiro-content button{
+.hiro-content a{
   padding: 7px 35px;
   border-radius: 30px;
   border: none;
@@ -103,9 +103,10 @@ align-items: center;
   font-size: 18px;
   font-weight: 500;
   transition: .3s ease-in-out;
+  text-decoration: none;
 }
 
-.hiro-content button:hover{
+.hiro-content a:hover{
   background-color: orange;
   font-weight: 700;
 
@@ -229,7 +230,6 @@ font-size: 18px;
 .current-target .item{
   width: 250px;
   height: 200px;
-  border: 2px solid black;
   display: flex;
   flex-direction: column;
 }
@@ -264,4 +264,78 @@ font-size: 18px;
 .javascript{
   background-color: antiquewhite;
 }
-/*current target section finished/
+/*current target section finished*/
+
+/*footer section started*/
+footer{
+  width: 100%;
+  padding:30px 150px;
+  height: 450px;
+}
+
+.cover{
+  background-image: url(/assets/handshake.jpg);
+  height: 320px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cover h2{
+  font-size: 35px;
+  color: white;
+  font-weight: 600;
+}
+
+.cover p{
+  padding: 15px 0;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+.inp-box{
+  padding: 30px 0;
+}
+.inp-box #text{
+height: 35px;
+width: 250px;
+border-radius: 10px;
+background-color: white;
+font-size: 17px;
+border: none;
+}
+
+.inp-box #submit{
+  height: 35px;
+  width: 130px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 17px;
+  border: none;
+}
+
+.down-foot{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding:70px 60px 0 0;
+  align-items: center;
+}
+.down-foot p{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.icon-box a{
+padding: 5px;
+}
+
+hr{
+  height: 5px;
+  background-color: black;
+}
+/*footer section finished*/
