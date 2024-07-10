@@ -83,12 +83,14 @@ align-items: center;
   font-size: 35px;
   width: 500px;
   text-align: center;
+  text-align: center;
 }
 
 .hiro-content p{
   font-size: 17px;
   letter-spacing: .5px;
   margin: 0 50px;
+  text-align: center;
 }
 .hiro-content p span{
   font-size: 25px;
